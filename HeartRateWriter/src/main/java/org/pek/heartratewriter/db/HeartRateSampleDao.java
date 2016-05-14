@@ -22,16 +22,15 @@ public class HeartRateSampleDao {
 		/* retrieve the session to the cluster */		
 		session = CassandraAccess.getSession();
 		
-		/* Since our cluster has only one node,
-		   we use a Consistency Level of 1 */
+		/* Since our Cluster has only one Node,
+		   and KeySpace 'hospital' has a Replication Factor of 3,
+		   we use a Consistency Level of 1
+		*/
 		Statement statement 
 			= new SimpleStatement(query).setConsistencyLevel(ConsistencyLevel.ONE);
 		
 		/* execute the statement */
 		session.execute(statement);
-		
-		
-//		session.execute(query);
 	}
 	
 	private String makeQuery() {
