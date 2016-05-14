@@ -1,7 +1,18 @@
+# Application HeartRateWriter
+
+HeartRateWriter/.settings/
 HeartRateWriter/target/
 
 HeartRateWriter/.classpath
 HeartRateWriter/.project
-HeartRateWriter/.settings/org.eclipse.jdt.core.prefs
-HeartRateWriter/.settings/org.eclipse.m2e.core.prefs
+
+
+# Web Application HeartRateReader
+
+HeartRateReader/.settings/
+HeartRateReader/target/
+
+HeartRateReader/.classpath
+HeartRateReader/.project
+
 
