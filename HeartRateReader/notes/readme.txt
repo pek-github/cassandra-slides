@@ -24,7 +24,7 @@ The app does not perform any serious error checking/handling
 - in fact you can easily make it crash with invalid input.
 
 Finally, it was tested in a Cluster with a single node.
-
+Web Server was Tomcat 7.0.
 
 
 Example queries (against a local web server), 
